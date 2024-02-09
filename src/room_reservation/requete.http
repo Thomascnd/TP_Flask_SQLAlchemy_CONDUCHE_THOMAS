@@ -1,0 +1,8 @@
+POST http://localhost:5000/api/chambres HTTP/1.1
+Content-Type: application/json
+
+{
+  "numero":10,
+  "type":"delux",
+  "prix":103
+}
